@@ -17,7 +17,7 @@ contract  MyToken {
 // public variables here
     string public tokenName = "ayush";
     string public tokenAbbrv = "jangir";
-    uint public totalSupply = 1;
+    uint public totalSupply;
 //mapping variables here
     mapping (address => uint) public balances;
 
